@@ -36,4 +36,6 @@ CREATE TABLE success_killed(
   KEY idx_create_time(create_time)
 )ENGINE=INNODB DEFAULT CHARSET=utf8 COMMENT='秒杀成功明细表';
 
-  -- SHOW CREATE TABLE seckill;#显示表的创建信息
+  -- SHOW CREATE TABLE seckill\G;#显示表的创建信息
+  
+--  mysql -uroot -p
